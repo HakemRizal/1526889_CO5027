@@ -1,0 +1,301 @@
+﻿body {
+    background-image: url('../Images/CoolBlueBackground.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 100% auto;
+    color: #FFFFFF;
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: left;
+}
+
+.body {
+    margin: 0px auto;
+    width: 70%;
+    clear: both; 
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 24px;
+    margin-bottom: 10px;
+    border: 1px solid none; 
+}
+
+header h1 img {
+    border-radius: 12px; 
+}
+
+header nav {
+    background-color: transparent;
+    height: 38px; 
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0px auto;
+    overflow: hidden;
+    width: 90%;
+    border: 1px solid none; 
+    padding-left: 60px; 
+}
+
+header nav ul li {
+    float: left;
+    display: block;
+    border: 2px outset #003254;
+    width: 150px; 
+    height: 40px;
+    margin: 0px 3px;
+    background-color: #EDD23B;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+    display: block;
+    width: 150px; 
+    height: 40px;
+    text-align: center;
+    padding-top: 8px; 
+    text-decoration: none;
+}
+
+header nav a:hover, a:active {
+    background-color: none;
+    font-weight: bold;
+    transform: scale(1.05);
+    transition: all .2s ease-in-out;
+}
+
+header nav a:visited {
+    color: #FFFFFF;  
+}
+
+header nav a:link {
+    background-color: #003254;
+}
+.MainContent {
+    border: 2px solid #FFFFFF; 
+    border-radius: 6px;
+    line-height: 24px;
+    overflow: hidden;
+    margin-top: 2%; 
+    margin-bottom: 2%;
+}
+.MainContent .TopContent {
+    margin-bottom: 2%;
+}
+.MainContent .TopContent h2 {
+    font-size: 28px;
+    text-shadow: 5px 5px 8px #000000;
+    padding-left: 2.5%;
+}
+hr {
+    border-style: dashed;
+    margin: 10px 0px;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #FFFFFF; 
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.BottomContent h2 {
+    font-size: 28px;
+    text-shadow: 5px 5px 8px #000000;
+    padding-left: 2.5%;
+}
+
+.BottomContent ul {
+    list-style-type: none;
+    margin: 0px auto;
+    padding-left: 9%;
+    width: 100%; 
+}
+
+.BottomContent ul li {
+    float: left;
+    margin-right: 70px; 
+    margin-bottom: 4%;
+}
+
+.BottomContent img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px #FFFFFF;
+}
+
+.BottomContent img:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+.FigureCaption {
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px #000000;
+    margin-top: 0.5em;
+    line-height: 0.5em;
+    width: 100%;
+}
+.SeeMore {
+    display: inline-block;
+    float: right;
+    width: 90px;
+    height: 30px;
+    background-color: #003254;
+    border-radius: 6px;
+    border: 1px outset #003254;
+    padding-top: 5px;
+    margin: 1% 2% 2% 2.5%;
+    color: #FFFFFF;
+    text-align: center;
+    box-shadow: 0px 8px 6px -6px #FFFFFF;
+}
+.SeeMore a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.SeeMore:hover {
+    transform: scale(1.05);
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+}
+footer {
+    float: left;
+    border: 2px solid #FFFFFF;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.SocialMedia-Icons {
+    width: 15%;
+    margin: 0px 45%;
+}
+
+.SocialMedia-Icons img {
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin: 8px 5px 5px 0px; 
+}
+
+.SocialMedia-Icons img:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
+.MainContent2 {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #FFFFFF;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.MyProducts h2 {
+    font-size: 28px;
+    text-shadow: 5px 5px 8px #000000;
+    padding-left: 2.5%;
+}
+.MainContent2 ul {
+    list-style-type: none;
+    margin: 0px auto;
+    padding-left: 9%;
+    width: 100%;
+}
+.MainContent2 ul li {
+    float: left;
+    margin-right: 70px;
+    margin-bottom: 6%;
+}
+.MainContent2 img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px #FFFFFF;
+}
+.FigureCaption2 {
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px #000000;
+    margin-top: 0.5em;
+    line-height: 0.5em;
+    width: 100%;
+}
+.Price {
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px #000000;
+    margin-top: 0.5em;
+    line-height: 0.5em;
+    width: 100%;
+    padding-top: 3%;
+}
+.Stock {
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px #000000;
+    margin-top: 0.5em;
+    line-height: 0.5em;
+    width: 100%;
+    padding-top: 3%;
+}
+.MainContent2 img:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+a.back-to-top {
+    display: inline-block;
+    float: left;
+    width: 80px;
+    height: 30px;
+    text-decoration: none;
+    background-color: #003254;
+    border-radius: 6px;
+    border: 1px outset #003254;
+    padding-top: 5px;
+    margin: 1% 6% 2% 2.5%;
+    color: #FFFFFF;
+    text-align: center;
+    box-shadow: 0px 8px 6px -6px #FFFFFF;
+}
+
+a:hover.back-to-top {
+    transform: scale(1.05);
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+}
+.MainContent h2 {
+    font-size: 28px;
+    text-shadow: 5px 5px 8px #000000;
+    padding-left: 2.5%;
+}
+.TopContent2  {
+    width: 100%;
+    height: 100%;
+}
+.TopContent2 img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px #FFFFFF; 
+    margin-left: 150px;
+}
+.MyStory {
+    margin-top: 3%;
+}
+.MyStory p {
+    font-size: 18px;
+    text-shadow: 5px 5px 8px #000000;
+    padding: 0 2.5% 0 2.5%;
+    text-align: center;  
+}
+.TopContent2 .MyStory h3 {
+    text-align: center;
+    text-shadow: 5px 5px 8px #000000;
+    font-size: 24px;
+}
+.ContactForm {
+    padding-left: 32.5%;
+}
