@@ -143,6 +143,15 @@ hr {
     line-height: 0.5em;
     width: 100%;
 }
+.Price {
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px #000000;
+    margin-top: 0.5em;
+    line-height: 0.5em;
+    width: 100%;
+    padding-top: 3%;
+}
 .SeeMore {
     display: inline-block;
     float: right;
@@ -296,6 +305,26 @@ a:hover.back-to-top {
     text-shadow: 5px 5px 8px #000000;
     font-size: 24px;
 }
+.TopContent2 {
+    margin-bottom: 5%;
+    width: 100%;
+    height: 100%;
+}
+.TopContent2 h3 {
+    text-align: center;
+    text-shadow: 5px 5px 8px #000000;
+    font-size: 24px;
+    padding-top: 2.5%;
+}
+.TopContent2 p {
+    text-align: center;
+    text-shadow: 5px 5px 8px #000000;
+    font-size: 18px;
+}
 .ContactForm {
     padding-left: 32.5%;
+    padding-top: 2%;
+    margin-right: 3%;
+    margin-top: 3%;
 }
+
