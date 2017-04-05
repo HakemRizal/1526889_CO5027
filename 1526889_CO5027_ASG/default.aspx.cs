@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace _1526889_CO5027_ASG.Admin
+namespace _1526889_CO5027_ASG
 {
     public partial class _default : System.Web.UI.Page
     {

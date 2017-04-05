@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="_1526889_CO5027_ASG.about" %>
+﻿<%@ Page Title="Active Games - About" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="_1526889_CO5027_ASG.about" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="CSS/StyleSheet.css" rel="stylesheet" type="text/css"/>
 </asp:Content>
