@@ -30,6 +30,6 @@
                         <asp:Button ID="SendBtn" runat="server" OnClick="Button1_Click" style="margin-left: 217px" Text="Submit" Width="90px" Height="29px" />
                         <br />
                         <br />
-                </div>
-            </div>
+          </div>
+     </div>
 </asp:Content>

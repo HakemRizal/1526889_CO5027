@@ -10,60 +10,69 @@
 namespace _1526889_CO5027_ASG {
     
     
-    public partial class login {
+    public partial class register {
         
         /// <summary>
-        /// TxtBoxUsername1 control.
+        /// TxtBoxFullname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtBoxUsername1;
+        protected global::System.Web.UI.WebControls.TextBox TxtBoxFullname;
         
         /// <summary>
-        /// reqValUsername1 control.
+        /// TxtBoxUsername2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValUsername1;
+        protected global::System.Web.UI.WebControls.TextBox TxtBoxUsername2;
         
         /// <summary>
-        /// TxtBoxPassword1 control.
+        /// TxtBoxPassword2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtBoxPassword1;
+        protected global::System.Web.UI.WebControls.TextBox TxtBoxPassword2;
         
         /// <summary>
-        /// reqValPassword1 control.
+        /// TxtBoxEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValPassword1;
+        protected global::System.Web.UI.WebControls.TextBox TxtBoxEmail;
         
         /// <summary>
-        /// LoginBtn control.
+        /// TxtBoxGender control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button LoginBtn;
+        protected global::System.Web.UI.WebControls.TextBox TxtBoxGender;
         
         /// <summary>
-        /// HyperLinkbtn control.
+        /// TxtBoxContactNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLinkbtn;
+        protected global::System.Web.UI.WebControls.TextBox TxtBoxContactNo;
+        
+        /// <summary>
+        /// RegisterBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button RegisterBtn;
     }
 }

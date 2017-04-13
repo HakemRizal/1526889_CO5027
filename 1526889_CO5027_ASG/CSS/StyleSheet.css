@@ -327,4 +327,12 @@ a:hover.back-to-top {
     margin-right: 3%;
     margin-top: 3%;
 }
-
+.Registration p {
+    padding-left: 2.5%;
+}
+.LoginForm {
+    margin-bottom: 3%;
+}
+.RegisterForm {
+    margin-bottom: 4%;
+}
