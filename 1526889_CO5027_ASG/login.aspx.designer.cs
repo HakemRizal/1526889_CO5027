@@ -22,15 +22,6 @@ namespace _1526889_CO5027_ASG {
         protected global::System.Web.UI.WebControls.TextBox TxtBoxUsername1;
         
         /// <summary>
-        /// reqValUsername1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValUsername1;
-        
-        /// <summary>
         /// TxtBoxPassword1 control.
         /// </summary>
         /// <remarks>
@@ -38,15 +29,6 @@ namespace _1526889_CO5027_ASG {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtBoxPassword1;
-        
-        /// <summary>
-        /// reqValPassword1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValPassword1;
         
         /// <summary>
         /// LoginBtn control.

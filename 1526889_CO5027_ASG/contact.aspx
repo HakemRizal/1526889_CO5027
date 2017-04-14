@@ -1,35 +1,57 @@
 ﻿<%@ Page Title="Active Games - Contact" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="_1526889_CO5027_ASG.contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 126px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="MainContent">
         <h2>Contact Us</h2>
-        <div class="ContactForm">
-    
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name:<br />
-                    &nbsp;&nbsp;
-                        <asp:TextBox ID="TxtName" runat="server"  Height="22px" style="margin-left: 15px; margin-right: 0px; margin-top: 0px" Width="275px"></asp:TextBox>
-                        <br />
-                        <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email Address:<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:TextBox ID="TxtEmail" runat="server" Height="22px" style="margin-top: 0px" Width="275px"></asp:TextBox>
-                        <br />
-                        <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Subject:<br />
-                    &nbsp;&nbsp;
-                        <asp:TextBox ID="TxtSubject" runat="server" Height="22px" style="margin-left: 15px; margin-top: 0px" Width="275px"></asp:TextBox>
-                        <br />
-                    &nbsp;&nbsp;
-                        <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Message:<br />
-                        <asp:TextBox ID="TxtMessage" runat="server" Height="140px" style="margin-left: 28px; margin-top: 0px" Width="275px" TextMode="MultiLine"></asp:TextBox>
-                        <br />
-                        <br />
-                        <asp:Button ID="SendBtn" runat="server" OnClick="Button1_Click" style="margin-left: 217px" Text="Submit" Width="90px" Height="29px" />
-                        <br />
-                        <br />
-          </div>
-     </div>
+
+        <br />
+        <table class="auto-style1" style="margin-left:2.5%">
+            <tr>
+                <td class="auto-style2">Name:</td>
+                <td> 
+                    <asp:TextBox ID="TxtName" runat="server" Height="22px" Width="200px"></asp:TextBox>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">Email Address:</td>
+                <td>
+                    <asp:TextBox ID="TxtEmail" runat="server" Height="22px" Width="200px"></asp:TextBox>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">Subject:</td>
+                <td>
+                    <asp:TextBox ID="TxtSubject" runat="server" Height="22px" Width="200px"></asp:TextBox>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">Message:</td>
+                <td>
+                    <asp:TextBox ID="TxtMessage" runat="server" TextMode="MultiLine" Width="198px" Height="100px"></asp:TextBox>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td>
+                    <asp:Button ID="Button1" runat="server" Height="25px" Text="Submit" style="margin-left:147px" title="Submit"/>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+        
 </asp:Content>
