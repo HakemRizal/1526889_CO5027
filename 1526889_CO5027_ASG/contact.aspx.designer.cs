@@ -22,6 +22,15 @@ namespace _1526889_CO5027_ASG {
         protected global::System.Web.UI.WebControls.TextBox TxtName;
         
         /// <summary>
+        /// reqValName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValName;
+        
+        /// <summary>
         /// TxtEmail control.
         /// </summary>
         /// <remarks>
@@ -29,6 +38,15 @@ namespace _1526889_CO5027_ASG {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtEmail;
+        
+        /// <summary>
+        /// reqValEmailAddress control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValEmailAddress;
         
         /// <summary>
         /// TxtSubject control.
@@ -40,21 +58,48 @@ namespace _1526889_CO5027_ASG {
         protected global::System.Web.UI.WebControls.TextBox TxtSubject;
         
         /// <summary>
-        /// TxtMessage control.
+        /// reqValSubject control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtMessage;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValSubject;
         
         /// <summary>
-        /// Button1 control.
+        /// TxtComments control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.TextBox TxtComments;
+        
+        /// <summary>
+        /// reqValComments control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValComments;
+        
+        /// <summary>
+        /// SubmitBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SubmitBtn;
+        
+        /// <summary>
+        /// literalTxt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal literalTxt;
     }
 }
