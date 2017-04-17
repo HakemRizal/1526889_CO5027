@@ -13,22 +13,40 @@ namespace _1526889_CO5027_ASG {
     public partial class login {
         
         /// <summary>
-        /// TxtBoxUsername1 control.
+        /// TxtBoxUsername2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtBoxUsername1;
+        protected global::System.Web.UI.WebControls.TextBox TxtBoxUsername2;
         
         /// <summary>
-        /// TxtBoxPassword1 control.
+        /// reqValUsename2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtBoxPassword1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValUsename2;
+        
+        /// <summary>
+        /// TxtBoxPassword2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtBoxPassword2;
+        
+        /// <summary>
+        /// reqValPassword2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValPassword2;
         
         /// <summary>
         /// LoginBtn control.
@@ -47,5 +65,14 @@ namespace _1526889_CO5027_ASG {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink HyperLinkbtn;
+        
+        /// <summary>
+        /// LitLoginError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal LitLoginError;
     }
 }

@@ -4,6 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.Owin.Security;
+
 
 namespace _1526889_CO5027_ASG
 {
@@ -11,11 +15,30 @@ namespace _1526889_CO5027_ASG
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void LoginBtn_Click(object sender, EventArgs e)
         {
+            var identityDbContext = new IdentityDbContext("IdentityConnectionString");
+            var userStore = new UserStore<IdentityUser>(identityDbContext);
+            var userManager = new UserManager<IdentityUser>(userStore);
+            var user = userManager.Find(TxtBoxUsername2.Text, TxtBoxPassword2.Text);
+            if (user != null)
+            {
+                //Either log user in / instruct user to log in
+            }
+            else
+            {
+                LitLoginError.Text = "Invalid username or password";
+            }
+        }
+
+        private void LogUserIn(UserManager<IdentityUser> userManager, IdentityUser user)
+        {
+            var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
+            var userIdentity = userManager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
+            authenticationManager.SignIn(new AuthenticationProperties() { }, userIdentity);
 
         }
     }

@@ -13,34 +13,41 @@
             <tr>
                 <td class="auto-style4">Username:</td>
                 <td>
-                    <asp:TextBox ID="TxtBoxUsername1" runat="server" Height="22px" Width="180px"></asp:TextBox>
+                    <asp:TextBox ID="TxtBoxUsername2" runat="server" Height="22px" Width="180px"></asp:TextBox>
                 </td>
                 <td class="auto-style6">
-                    &nbsp;</td>
+                    <asp:RequiredFieldValidator ID="reqValUsename2" runat="server" 
+                        ErrorMessage="Please enter your username " ControlToValidate="TxtBoxUsername2" 
+                        ForeColor="Yellow"></asp:RequiredFieldValidator>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style4">Password:</td>
                 <td>
-                    <asp:TextBox ID="TxtBoxPassword1" runat="server" Height="22px" Width="180px"></asp:TextBox>
+                    <asp:TextBox ID="TxtBoxPassword2" runat="server" Height="22px" Width="180px"></asp:TextBox>
                 </td>
                 <td>
-                    &nbsp;</td>
+                    <asp:RequiredFieldValidator ID="reqValPassword2" runat="server" ControlToValidate="TxtBoxPassword2" 
+                        ErrorMessage="Please enter your password" ForeColor="Yellow"></asp:RequiredFieldValidator>
+                </td>
             </tr>
             <tr>
-                <td class="auto-style3"></td>
+                <td class="auto-style3">&nbsp</td>
                 <td class="auto-style1">
-                    <asp:Button ID="LoginBtn" runat="server" style="margin-left: 137px" Text="Login" Height="25px" title="Login" />
+                    <asp:Button ID="LoginBtn" runat="server" style="margin-left: 137px" Text="Login" Height="25px" 
+                        title="Login" OnClick="LoginBtn_Click" />
                 </td>
                 <td class="auto-style1">
-                    </td>
+                    &nbsp</td>
             </tr>
         </table>
         <br />
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp;
-            Sign in with your existing account. If not please register <asp:HyperLink ID="HyperLinkbtn" runat="server" ForeColor="Yellow" NavigateUrl="~/register.aspx">here</asp:HyperLink>
+            Sign in with your existing account. If not please register <asp:HyperLink ID="HyperLinkbtn" runat="server" 
+                ForeColor="Yellow" NavigateUrl="~/register.aspx">here</asp:HyperLink>
         </div>
+        <asp:Literal ID="LitLoginError" runat="server"></asp:Literal>
     </div>
-    
     
 </asp:Content>

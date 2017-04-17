@@ -22,22 +22,49 @@ namespace _1526889_CO5027_ASG {
         protected global::System.Web.UI.WebControls.TextBox TxtBoxFullname;
         
         /// <summary>
-        /// TxtBoxUsername2 control.
+        /// reqValFullname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtBoxUsername2;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValFullname;
         
         /// <summary>
-        /// TxtBoxPassword2 control.
+        /// TxtBoxUsername1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtBoxPassword2;
+        protected global::System.Web.UI.WebControls.TextBox TxtBoxUsername1;
+        
+        /// <summary>
+        /// reqValUsername control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValUsername;
+        
+        /// <summary>
+        /// TxtBoxPassword1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtBoxPassword1;
+        
+        /// <summary>
+        /// reqValPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValPassword;
         
         /// <summary>
         /// TxtBoxEmail control.
@@ -49,13 +76,40 @@ namespace _1526889_CO5027_ASG {
         protected global::System.Web.UI.WebControls.TextBox TxtBoxEmail;
         
         /// <summary>
-        /// TxtBoxGender control.
+        /// reqValEmailAddress2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtBoxGender;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValEmailAddress2;
+        
+        /// <summary>
+        /// rgExpValEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rgExpValEmail;
+        
+        /// <summary>
+        /// GenderDropDownList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList GenderDropDownList;
+        
+        /// <summary>
+        /// reqValGender control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValGender;
         
         /// <summary>
         /// TxtBoxContactNo control.
@@ -67,6 +121,15 @@ namespace _1526889_CO5027_ASG {
         protected global::System.Web.UI.WebControls.TextBox TxtBoxContactNo;
         
         /// <summary>
+        /// reqValContactNo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValContactNo;
+        
+        /// <summary>
         /// RegisterBtn control.
         /// </summary>
         /// <remarks>
@@ -74,5 +137,14 @@ namespace _1526889_CO5027_ASG {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button RegisterBtn;
+        
+        /// <summary>
+        /// LitRegError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal LitRegError;
     }
 }

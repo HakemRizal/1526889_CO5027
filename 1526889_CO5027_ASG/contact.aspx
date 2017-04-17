@@ -25,7 +25,8 @@
                     <asp:TextBox ID="TxtName" runat="server" Height="22px" Width="200px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="reqValName" runat="server" ControlToValidate="TxtName" ErrorMessage="Name is required" ForeColor="Yellow"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="reqValName" runat="server" ControlToValidate="TxtName" 
+                        ErrorMessage="Name is required" ForeColor="Yellow"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -34,7 +35,8 @@
                     <asp:TextBox ID="TxtEmail" runat="server" Height="22px" Width="200px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="reqValEmailAddress" runat="server" ControlToValidate="TxtEmail" ErrorMessage="Please enter a valid email" ForeColor="Yellow"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="reqValEmailAddress" runat="server" ControlToValidate="TxtEmail" 
+                        ErrorMessage="Please enter a valid email" ForeColor="Yellow"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -43,7 +45,8 @@
                     <asp:TextBox ID="TxtSubject" runat="server" Height="22px" Width="200px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="reqValSubject" runat="server" ControlToValidate="TxtSubject" ErrorMessage="Subject is required" ForeColor="Yellow"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="reqValSubject" runat="server" ControlToValidate="TxtSubject" 
+                        ErrorMessage="Subject is required" ForeColor="Yellow"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -52,18 +55,24 @@
                     <asp:TextBox ID="TxtComments" runat="server" TextMode="MultiLine" Width="198px" Height="100px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="reqValComments" runat="server" ControlToValidate="TxtComments" ErrorMessage="Comments are required" ForeColor="Yellow"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="reqValComments" runat="server" ControlToValidate="TxtComments" 
+                        ErrorMessage="Comments are required" ForeColor="Yellow"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
-                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style2"></td>
                 <td class="auto-style3">
-                    <asp:Button ID="SubmitBtn" runat="server" Height="25px" Text="Submit" style="margin-left:147px" title="Submit" OnClick="SubmitButton_Click"/>
+                    <asp:Button ID="SubmitBtn" runat="server" Height="25px" Text="Submit" style="margin-left:147px" 
+                        title="Submit" OnClick="SubmitButton_Click"/>
                 </td>
-                <td>&nbsp;</td>
+                <td></td>
             </tr>
         </table>
         <asp:Literal ID="literalTxt"  runat="server"></asp:Literal>
+    </div>
+
+    <div>
+
     </div>
         
 </asp:Content>

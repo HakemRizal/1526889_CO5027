@@ -30,19 +30,15 @@ namespace _1526889_CO5027_ASG
                     + "<b>Comments: </b>" + TxtComments.Text;
                 MailMsg.IsBodyHtml = true;
 
-                SmtpClient smtpClient = new SmtpClient();
-                smtpClient.Host = "smtp.gmail.com";
-                smtpClient.Port = 587;
+                SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
                 smtpClient.EnableSsl = true;
                 smtpClient.UseDefaultCredentials = false;
                 System.Net.NetworkCredential networkCredentials= new System.Net.NetworkCredential("Campione2744@gmail.com", "Campionez");
                 smtpClient.Credentials = networkCredentials;
                 smtpClient.Send(MailMsg);
-                
-                
                
                 }
-                literalTxt.Text = "<p>Success, mail sent using SMTP with secure connection and credentials</p>";
+                literalTxt.Text = "<p>Successfully sent the mail by using SMTP with secure connection and credentials</p>";
             }
             catch (Exception ex)
             {
