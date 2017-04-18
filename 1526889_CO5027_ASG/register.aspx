@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="_1526889_CO5027_ASG.register" %>
+﻿<%@ Page Title="Active Games - Register" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="_1526889_CO5027_ASG.register" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style1 {
@@ -88,8 +88,10 @@
                 <tr>
                     <td class="auto-style2"></td>
                     <td class="auto-style3">
-                        <asp:Button ID="RegisterBtn" runat="server" Text="Register" style="margin-left:139px" Height="25px" 
+                        <asp:Button ID="RegisterBtn" runat="server" Text="Register" Height="25px" 
                             title="Register" OnClick="RegisterBtn_Click" />
+                        <asp:Button ID="ClearAllBtn" runat="server" Height="25px" Width="65px" Style="margin-left: 69px;" 
+                            Text="Clear All" title="Clear All" OnClientClick="this.form.reset();return false;" />
                         </td>
                     <td></td>
                 </tr>

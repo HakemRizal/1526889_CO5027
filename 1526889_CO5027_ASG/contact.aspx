@@ -62,8 +62,10 @@
             <tr>
                 <td class="auto-style2"></td>
                 <td class="auto-style3">
-                    <asp:Button ID="SubmitBtn" runat="server" Height="25px" Text="Submit" style="margin-left:147px" 
+                    <asp:Button ID="SubmitBtn" runat="server" Height="25px" Text="Submit"  
                         title="Submit" OnClick="SubmitButton_Click"/>
+                    <asp:Button ID="ClearAllBtn" runat="server" Height="25px" Width="65px" Style="margin-left: 77px;"  
+                        Text="Clear All" title="Clear All" OnClientClick="this.form.reset();return false;"/>
                 </td>
                 <td></td>
             </tr>

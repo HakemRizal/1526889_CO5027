@@ -20,17 +20,22 @@ namespace _1526889_CO5027_ASG
 
         protected void LoginBtn_Click(object sender, EventArgs e)
         {
-            var identityDbContext = new IdentityDbContext("IdentityConnectionString");
-            var userStore = new UserStore<IdentityUser>(identityDbContext);
-            var userManager = new UserManager<IdentityUser>(userStore);
-            var user = userManager.Find(TxtBoxUsername2.Text, TxtBoxPassword2.Text);
-            if (user != null)
-            {
-                //Either log user in / instruct user to log in
-            }
-            else
-            {
-                LitLoginError.Text = "Invalid username or password";
+            if (Page.IsValid)
+            { 
+                var identityDbContext = new IdentityDbContext("IdentityConnectionString");
+                var userStore = new UserStore<IdentityUser>(identityDbContext);
+                var userManager = new UserManager<IdentityUser>(userStore);
+                var user = userManager.Find(TxtBoxUsername2.Text, TxtBoxPassword2.Text);
+                if (user != null)
+                {
+                    //Instruct user to log in
+                    LogUserIn(userManager, user);
+                    Server.Transfer("privatePage.aspx", true);
+                }
+                else
+                {
+                    LitLoginError.Text = "Cannot log in due to invalid username or password";
+                }
             }
         }
 

@@ -24,7 +24,7 @@
             <tr>
                 <td class="auto-style4">Password:</td>
                 <td>
-                    <asp:TextBox ID="TxtBoxPassword2" runat="server" Height="22px" Width="180px"></asp:TextBox>
+                    <asp:TextBox ID="TxtBoxPassword2" runat="server" Height="22px" Width="180px" TextMode="Password"></asp:TextBox>
                 </td>
                 <td>
                     <asp:RequiredFieldValidator ID="reqValPassword2" runat="server" ControlToValidate="TxtBoxPassword2" 
@@ -34,8 +34,10 @@
             <tr>
                 <td class="auto-style3">&nbsp</td>
                 <td class="auto-style1">
-                    <asp:Button ID="LoginBtn" runat="server" style="margin-left: 137px" Text="Login" Height="25px" 
+                    <asp:Button ID="LoginBtn" runat="server" Text="Login" Height="25px" 
                         title="Login" OnClick="LoginBtn_Click" />
+                    <asp:Button ID="ClearAllBtn" runat="server"  Height="25px" Width="65px" Style="margin-left: 67px;" 
+                        Text="Clear All" title="Clear All" OnClientClick="this.form.reset();return false;" />
                 </td>
                 <td class="auto-style1">
                     &nbsp</td>

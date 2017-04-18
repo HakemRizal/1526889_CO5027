@@ -20,25 +20,25 @@ namespace _1526889_CO5027_ASG
             { 
                 if (Page.IsValid)
                 { 
-                MailMessage MailMsg = new MailMessage();
-                MailMsg.From = new MailAddress("Campione2744@gmail.com");
-                MailMsg.To.Add(TxtEmail.Text);
-                MailMsg.Subject = TxtSubject.Text;
+                MailMessage MailTxtMsg = new MailMessage();
+                MailTxtMsg.From = new MailAddress("Campione2744@gmail.com");
+                MailTxtMsg.To.Add(TxtEmail.Text);
+                MailTxtMsg.Subject = TxtSubject.Text;
 
-                MailMsg.Body = "<b>Name: </b>" + TxtName.Text + "<br/>"
+                MailTxtMsg.Body = "<b>Name: </b>" + TxtName.Text + "<br/>"
                     + "<b>Email: </b>" + TxtEmail.Text + "<br/>"
                     + "<b>Comments: </b>" + TxtComments.Text;
-                MailMsg.IsBodyHtml = true;
+                    MailTxtMsg.IsBodyHtml = true;
 
                 SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
                 smtpClient.EnableSsl = true;
                 smtpClient.UseDefaultCredentials = false;
                 System.Net.NetworkCredential networkCredentials= new System.Net.NetworkCredential("Campione2744@gmail.com", "Campionez");
                 smtpClient.Credentials = networkCredentials;
-                smtpClient.Send(MailMsg);
+                smtpClient.Send(MailTxtMsg);
                
                 }
-                literalTxt.Text = "<p>Successfully sent the mail by using SMTP with secure connection and credentials</p>";
+                literalTxt.Text = "<p>Successfull sent the mail by using SMTP with secure connection and credentials</p>";
             }
             catch (Exception ex)
             {
@@ -46,6 +46,5 @@ namespace _1526889_CO5027_ASG
                 literalTxt.Text = "<p>Send failed " + ex.Message + ":" + ex.InnerException + "</p>";
             }
         }
-
     }
 }

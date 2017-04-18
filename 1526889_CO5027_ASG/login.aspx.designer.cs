@@ -58,6 +58,15 @@ namespace _1526889_CO5027_ASG {
         protected global::System.Web.UI.WebControls.Button LoginBtn;
         
         /// <summary>
+        /// ClearAllBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ClearAllBtn;
+        
+        /// <summary>
         /// HyperLinkbtn control.
         /// </summary>
         /// <remarks>
