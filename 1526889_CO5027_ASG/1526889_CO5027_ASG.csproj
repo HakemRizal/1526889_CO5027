@@ -108,6 +108,7 @@
     <Content Include="PhoneDir.aspx" />
     <Content Include="privatePage.aspx" />
     <Content Include="register.aspx" />
+    <Content Include="Scripts\MyGoogleMap.js" />
     <Content Include="Site1.Master" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />

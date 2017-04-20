@@ -337,3 +337,21 @@ a:hover.back-to-top {
 .RegisterForm {
     margin-bottom: 4%;
 }
+.BottomContent2 {
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    line-height: 24px;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.BottomContent2 h2 {
+        font-size: 28px;
+        text-shadow: 5px 5px 8px #000000;
+        padding-left: 2.5%;
+}
+#MyMap {
+    height: 400px;
+    width: 80%;
+    background-color: gray;
+}

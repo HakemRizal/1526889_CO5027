@@ -14,6 +14,9 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <!-- The code below is for Google Map javascript -->
+    <script src="Scripts/MyGoogleMap.js"></script>
+
     <div class="MainContent">
         <h2>Contact Us</h2>
 
@@ -73,8 +76,12 @@
         <asp:Literal ID="literalTxt"  runat="server"></asp:Literal>
     </div>
 
-    <div>
-
+    <div class="BottomContent2">
+        <h2>Our Location</h2>
+        <div id ="MyMap"></div>
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnkEkU05bxuqphlzzXVoeOwNE80XSSkXc&callback=initMap">
+        </script>
     </div>
         
 </asp:Content>
