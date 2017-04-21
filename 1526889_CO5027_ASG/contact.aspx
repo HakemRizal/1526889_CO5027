@@ -14,7 +14,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <!-- The code below is for Google Map javascript -->
+    <!-- The script below is for Google Map -->
     <script src="Scripts/MyGoogleMap.js"></script>
 
     <div class="MainContent">
