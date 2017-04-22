@@ -18,12 +18,6 @@
 
                 <h3>Mission</h3>
                 <p>To be the most reliable and beneficial online store that provides reasonably priced genuine products as well as great customer service.</p>
-
-                <h3>Our Location</h3>
-                    <p>Hua Ho Department Store</p>
-                    <p>Petani Mall, 13096, Tutong TA1741</p>
-                    <p>Negara Brunei Darussalam</p>
-                    <p>Monday - Sunday(10am - 10pm)</p>
                     
             </div>
         </div>

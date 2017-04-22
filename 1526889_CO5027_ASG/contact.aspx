@@ -11,11 +11,13 @@
     .auto-style3 {
         width: 240px;
     }
+        .auto-style4 {
+            text-align: center;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <!-- The script below is for Google Map -->
-    <script src="Scripts/MyGoogleMap.js"></script>
+   
 
     <div class="MainContent">
         <h2>Contact Us</h2>
@@ -78,7 +80,15 @@
 
     <div class="BottomContent2">
         <h2>Our Location</h2>
+        <div class="MyAddress">
+        <p class="auto-style4">Hua Ho Department Store</p>
+        <p class="auto-style4">Petani Mall, 13906, Tutong TA1741</p>
+        <p class="auto-style4">Negara Brunei Darussalam</p>
+        <p class="auto-style4">Monday - Sunday(10am - 10pm)</p>
+        </div>
         <div id ="MyMap"></div>
+         <!-- The script below is for Google Map -->
+        <script src="Scripts/MyGoogleMap.js"></script>
         <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnkEkU05bxuqphlzzXVoeOwNE80XSSkXc&callback=initMap">
         </script>
