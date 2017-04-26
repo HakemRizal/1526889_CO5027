@@ -19,24 +19,23 @@ namespace _1526889_CO5027_ASG
             try
             { 
                 if (Page.IsValid)
-                { 
-                MailMessage MailTxtMsg = new MailMessage();
-                MailTxtMsg.From = new MailAddress("Campione2744@gmail.com");
-                MailTxtMsg.To.Add(TxtEmail.Text);
-                MailTxtMsg.Subject = TxtSubject.Text;
+                {
+                    SmtpClient smtpClient = new SmtpClient();
+                    smtpClient.EnableSsl = true;
+                    smtpClient.UseDefaultCredentials = false;
+                    smtpClient.Host = "smtp.gmail.com";
+                    smtpClient.Port = 587;
+                    System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("Hakiim2744@gmail.com", "hakiim#2744");
 
-                MailTxtMsg.Body = "<b>Name: </b>" + TxtName.Text + "<br/>"
-                    + "<b>Email: </b>" + TxtEmail.Text + "<br/>"
-                    + "<b>Comments: </b>" + TxtComments.Text;
-                    MailTxtMsg.IsBodyHtml = true;
+                    smtpClient.Credentials = credentials;
 
-                SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
-                smtpClient.EnableSsl = true;
-                smtpClient.UseDefaultCredentials = false;
-                System.Net.NetworkCredential networkCredentials= new System.Net.NetworkCredential("Campione2744@gmail.com", "Campionez");
-                smtpClient.Credentials = networkCredentials;
-                smtpClient.Send(MailTxtMsg);
-               
+                    MailMessage msg = new MailMessage("Hakiim2744@gmail.com", "Hakiim2744@gmail.com");
+                    msg.Subject = TxtSubject.Text;
+                    msg.Body = "Name: " + " " + TxtName.Text + " " + "\n"
+                        +  "Email: " + " " + TxtEmail.Text + " " + "\n"
+                        +  "Comments: " + " " + TxtComments.Text;
+                    smtpClient.Send(msg);
+
                 }
                 literalTxt.Text = "<p>Successfull sent the mail by using SMTP with secure connection and credentials</p>";
             }

@@ -41,7 +41,9 @@
                 </td>
                 <td>
                     <asp:RequiredFieldValidator ID="reqValEmailAddress" runat="server" ControlToValidate="TxtEmail" 
-                        ErrorMessage="Please enter a valid email" ForeColor="Yellow"></asp:RequiredFieldValidator>
+                        ErrorMessage="Email Address is required" ForeColor="Yellow"></asp:RequiredFieldValidator>
+                    <br />
+          
                 </td>
             </tr>
             <tr>
