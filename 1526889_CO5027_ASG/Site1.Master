@@ -11,7 +11,7 @@
         <link href="CSS/StyleSheet.css" rel="stylesheet" type="text/css" runat="server" />
         <link href="Scripts/jsImgSlider/themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
 
-        <script src="Scripts/jquery-3.1.1.js" type="text/javascript"></script>
+        
 
         <!-- This is the jquery file for the image slider transition effect -->
         <script src="Scripts/jsImgSlider/themes/1/js-image-slider.js" type="text/javascript"></script>

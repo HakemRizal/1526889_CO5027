@@ -48,6 +48,9 @@
                     <asp:RequiredFieldValidator ID="reqValEmailAddress" runat="server" ControlToValidate="TxtEmail" 
                         ErrorMessage="Email Address is required" ForeColor="Yellow"></asp:RequiredFieldValidator>
                     <br />
+                    <asp:RegularExpressionValidator ID="RegExpValEmailAdd" runat="server" ControlToValidate="TxtEmail" ErrorMessage="You must enter a valid email address" 
+                        ForeColor="Yellow" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                    <br />
           
                 </td>
             </tr>

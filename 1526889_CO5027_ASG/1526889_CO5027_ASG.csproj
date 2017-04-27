@@ -424,7 +424,6 @@
     <Content Include="Scripts\html5lightbox\pdfjs\web\locale\zu\viewer.properties" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\html5lightbox\froogaloop2.min.js" />
-    <Content Include="Scripts\html5lightbox\html5boxplayer.swf" />
     <Content Include="Scripts\html5lightbox\html5lightbox.js" />
     <Content Include="Scripts\html5lightbox\icons\css\animation.css" />
     <Content Include="Scripts\html5lightbox\icons\css\fontello-codes.css" />
@@ -436,7 +435,6 @@
     <Content Include="Scripts\html5lightbox\icons\font\fontello.svg" />
     <Content Include="Scripts\html5lightbox\icons\LICENSE.txt" />
     <Content Include="Scripts\html5lightbox\icons\README.txt" />
-    <Content Include="Scripts\html5lightbox\index.html" />
     <Content Include="Scripts\html5lightbox\jquery.js" />
     <Content Include="Scripts\html5lightbox\pdfjs\build\pdf.js" />
     <Content Include="Scripts\html5lightbox\pdfjs\build\pdf.worker.js" />

@@ -6,7 +6,7 @@
     <div class="MainContent">
         <div class="TopContent2">
             <h2>About</h2>
-            <img src="Images/Next_Gen_Logos.png" alt="Next Generation Gaming Logos" />
+            <img src="Images/Next_Gen_Logos.png" alt="Next Generation Gaming Logos" title="Next Generation Gaming Logos" />
 
             <div class="MyStory">
                 <h3>Who are we?</h3>
