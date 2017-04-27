@@ -32,7 +32,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp</td>
+                <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style1">
                     <asp:Button ID="LoginBtn" runat="server" Text="Login" Height="25px" 
                         title="Login" OnClick="LoginBtn_Click" />
@@ -40,7 +40,7 @@
                         Text="Clear All" title="Clear All" OnClientClick="this.form.reset();return false;" />
                 </td>
                 <td class="auto-style1">
-                    &nbsp</td>
+                    &nbsp;</td>
             </tr>
         </table>
         <br />
@@ -50,6 +50,9 @@
                 ForeColor="Yellow" NavigateUrl="~/register.aspx">here</asp:HyperLink>
         </div>
         <asp:Literal ID="LitLoginError" runat="server"></asp:Literal>
+    </div>
+    <div class="Validation" title="Login Page HTML Validator">
+        <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526889.studentwebserver.co.uk%2FCO5027%2Flogin.aspx">Login Page HTML Validator</a>
     </div>
     
 </asp:Content>

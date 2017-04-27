@@ -99,4 +99,7 @@
         </div> 
         <asp:Literal ID="LitRegError" runat="server"></asp:Literal>
     </div>
+     <div class="Validation" title="Register Page HTML Validator">
+        <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526889.studentwebserver.co.uk%2FCO5027%2Fregister.aspx">Register Page HTML Validator</a>
+    </div>
 </asp:Content>

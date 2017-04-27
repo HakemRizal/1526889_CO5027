@@ -100,5 +100,7 @@
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnkEkU05bxuqphlzzXVoeOwNE80XSSkXc&callback=initMap">
         </script>
     </div>
-        
+    <div class="Validation" title="Contact Page HTML Validator">
+        <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526889.studentwebserver.co.uk%2FCO5027%2Fcontact.aspx">Contact Page HTML Validator</a>
+    </div>       
 </asp:Content>

@@ -16,7 +16,7 @@
 							</a> 
 						 
 							<a href="Scripts/jsImgSlider/images/Playstation4_VR.jpg" class="html5lightbox" title="Playstation 4 VR">
-                                <img src="Scripts/jsImgSlider/images/Playstation4_VR.jpg"alt="Playstation 4 VR" title="Playstation 4 VR" />
+                                <img src="Scripts/jsImgSlider/images/Playstation4_VR.jpg" alt="Playstation 4 VR" title="Playstation 4 VR" />
 							</a>
 						
 							<a href="Scripts/jsImgSlider/images/Xbox-One-S.jpg" class="html5lightbox" title="Xbox One S">
@@ -62,4 +62,7 @@
                 <a href="product.aspx">See More</a>
             </div>
 		</div>
+        <div class="Validation" title="Default Page HTML Validator">
+                <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526889.studentwebserver.co.uk%2FCO5027%2Fdefault.aspx">Default Page HTML Validator</a>
+            </div>
 </asp:Content>

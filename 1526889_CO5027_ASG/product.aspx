@@ -95,4 +95,7 @@
             </section>
         </div>
     </div>
+    <div class="Validation" title="Product Page HTML Validator">
+        <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526889.studentwebserver.co.uk%2FCO5027%2Fproduct.aspx">Product Page HTML Validator</a>
+    </div>
 </asp:Content>
