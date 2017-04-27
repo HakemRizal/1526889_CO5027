@@ -4,11 +4,11 @@
         .auto-style1 {
             width: 100%;
         }
-        .auto-style2 {
-            width: 143px;
-        }
         .auto-style3 {
             width: 215px;
+        }
+        .auto-style4 {
+            width: 140px;
         }
     </style>
 </asp:Content>
@@ -20,7 +20,7 @@
 
             <table class="auto-style1" style="margin-left:2.5%">
                 <tr>
-                    <td class="auto-style2">Fullname:</td>
+                    <td class="auto-style4">Fullname:</td>
                     <td class="auto-style3">
                         <asp:TextBox ID="TxtBoxFullname" runat="server" Height="22px" Width="200px"></asp:TextBox>
                     </td>
@@ -29,7 +29,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">Username:</td>
+                    <td class="auto-style4">Username:</td>
                     <td class="auto-style3">
                         <asp:TextBox ID="TxtBoxUsername1" runat="server" Height="22px" Width="200px"></asp:TextBox>
                     </td>
@@ -38,7 +38,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">Password:</td>
+                    <td class="auto-style4">Password:</td>
                     <td class="auto-style3">
                         <asp:TextBox ID="TxtBoxPassword1" runat="server" Height="22px" Width="200px" TextMode="Password"></asp:TextBox>
                     </td>
@@ -48,7 +48,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">Email Address:</td>
+                    <td class="auto-style4">Email Address:</td>
                     <td class="auto-style3">
                         <asp:TextBox ID="TxtBoxEmail" runat="server" Height="22px" Width="200px"></asp:TextBox>
                     </td>
@@ -62,7 +62,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">Gender:</td>
+                    <td class="auto-style4">Gender:</td>
                     <td class="auto-style3">
                         <asp:DropDownList ID="GenderDropDownList" runat="server" Width="120px">
                             <asp:ListItem>Select Gender</asp:ListItem>
@@ -76,7 +76,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">Contact No:</td>
+                    <td class="auto-style4">Contact No:</td>
                     <td class="auto-style3">
                         <asp:TextBox ID="TxtBoxContactNo" runat="server" Height="22px" Width="200px"></asp:TextBox>
                     </td>
@@ -86,7 +86,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2"></td>
+                    <td class="auto-style4"></td>
                     <td class="auto-style3">
                         <asp:Button ID="RegisterBtn" runat="server" Text="Register" Height="25px" 
                             title="Register" OnClick="RegisterBtn_Click" />

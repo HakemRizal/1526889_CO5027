@@ -24,6 +24,11 @@
         <title>Active Games</title>
         <asp:ContentPlaceHolder ID="head" runat="server">
         </asp:ContentPlaceHolder>
+        <style type="text/css">
+            .auto-style1 {
+                text-align: left;
+            }
+        </style>
     </head>
 
     <body class="body">
@@ -54,15 +59,15 @@
             <footer>
                 <a href="#" class="back-to-top" title="Back-to-top">Top</a>
                 <div class="ValidationChecker">
-                    <p>
                         <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                            <img style="border:0;width:88px;height:31px"
-                            src="http://jigsaw.w3.org/css-validator/images/vcss"
+                            <img src="http://jigsaw.w3.org/css-validator/images/vcss"
                             alt="Valid CSS!" />
                          </a>
-                    </p>
                 </div>
             </footer>
+            <!-- The script below is for 'Smooth-Scrolling' back-to-top button. It cannot be placed in the 
+                head section of the page or in the jquery file. Instead, it should be placed after the closing 
+                footer so that the code will be triggered. -->
             <!-- Retrieved from  http://html-tuts.com/back-to-top-button-jquery/ -->
             <script>
 			    $('a.back-to-top').click(function() {

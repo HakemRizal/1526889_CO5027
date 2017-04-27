@@ -5,14 +5,19 @@
         .auto-style1 {
             width: 100%;
         }
-        .auto-style2 {
-            width: 126px;
-        }
-    .auto-style3 {
+        .auto-style3 {
         width: 240px;
-    }
+        }
         .auto-style4 {
             text-align: center;
+        }
+        .auto-style5 {
+            text-align: left;
+            width: 130px;
+        }
+        .auto-style6 {
+            text-align: center;
+            width: 130px;
         }
     </style>
 </asp:Content>
@@ -25,7 +30,7 @@
         <br />
         <table class="auto-style1" style="margin-left:2.5%">
             <tr>
-                <td class="auto-style2">Name:</td>
+                <td class="auto-style5">Name:</td>
                 <td class="auto-style3"> 
                     <asp:TextBox ID="TxtName" runat="server" Height="22px" Width="200px"></asp:TextBox>
                 </td>
@@ -35,7 +40,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style2">Email Address:</td>
+                <td class="auto-style5">Email Address:</td>
                 <td class="auto-style3">
                     <asp:TextBox ID="TxtEmail" runat="server" Height="22px" Width="200px"></asp:TextBox>
                 </td>
@@ -47,7 +52,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style2">Subject:</td>
+                <td class="auto-style5">Subject:</td>
                 <td class="auto-style3">
                     <asp:TextBox ID="TxtSubject" runat="server" Height="22px" Width="200px"></asp:TextBox>
                 </td>
@@ -57,7 +62,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style2">Comments:</td>
+                <td class="auto-style5">Comments:</td>
                 <td class="auto-style3">
                     <asp:TextBox ID="TxtComments" runat="server" TextMode="MultiLine" Width="198px" Height="100px"></asp:TextBox>
                 </td>
@@ -67,7 +72,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style2"></td>
+                <td class="auto-style6"></td>
                 <td class="auto-style3">
                     <asp:Button ID="SubmitBtn" runat="server" Height="25px" Text="Submit"  
                         title="Submit" OnClick="SubmitButton_Click"/>
@@ -89,7 +94,7 @@
         <p class="auto-style4">Monday - Sunday(10am - 10pm)</p>
         </div>
         <div id ="MyMap"></div>
-         <!-- The script below is for Google Map -->
+         <!-- This the jquery files for the Google Map -->
         <script src="Scripts/MyGoogleMap.js"></script>
         <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnkEkU05bxuqphlzzXVoeOwNE80XSSkXc&callback=initMap">
