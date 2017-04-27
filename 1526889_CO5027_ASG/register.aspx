@@ -50,7 +50,7 @@
                 <tr>
                     <td class="auto-style4">Email Address:</td>
                     <td class="auto-style3">
-                        <asp:TextBox ID="TxtBoxEmail" runat="server" Height="22px" Width="200px"></asp:TextBox>
+                        <asp:TextBox ID="TxtBoxEmail" runat="server" Height="22px" Width="200px" TextMode="Email"></asp:TextBox>
                     </td>
                     <td>
                         <asp:RequiredFieldValidator ID="reqValEmailAddress2" runat="server" ControlToValidate="TxtBoxEmail" 
