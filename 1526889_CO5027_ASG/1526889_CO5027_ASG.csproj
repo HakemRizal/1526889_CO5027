@@ -101,13 +101,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin.aspx" />
     <Content Include="default.aspx" />
     <Content Include="Images\Next_Gen_Logos.png" />
     <Content Include="login.aspx" />
     <Content Include="packages.config" />
-    <Content Include="PhoneDir.aspx" />
     <Content Include="privatePage.aspx" />
-    <Content Include="register.aspx" />
     <Content Include="Scripts\MyGoogleMap.js" />
     <Content Include="Site1.Master" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
@@ -141,7 +140,6 @@
     <Content Include="Images\Xbox-One-S.jpg" />
     <Content Include="Images\XBox_One.jpg" />
     <Content Include="Images\XBox_One_Controller.jpg" />
-    <Content Include="product.aspx" />
     <Content Include="Scripts\html5lightbox\icons\config.json" />
     <Content Include="Scripts\html5lightbox\icons\font\fontello.eot" />
     <Content Include="Scripts\html5lightbox\icons\font\fontello.ttf" />
@@ -574,6 +572,13 @@
     <Compile Include="about.aspx.designer.cs">
       <DependentUpon>about.aspx</DependentUpon>
     </Compile>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -598,13 +603,6 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PhoneDir.aspx.cs">
-      <DependentUpon>PhoneDir.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PhoneDir.aspx.designer.cs">
-      <DependentUpon>PhoneDir.aspx</DependentUpon>
-    </Compile>
     <Compile Include="privatePage.aspx.cs">
       <DependentUpon>privatePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -612,21 +610,7 @@
     <Compile Include="privatePage.aspx.designer.cs">
       <DependentUpon>privatePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="product.aspx.cs">
-      <DependentUpon>product.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="product.aspx.designer.cs">
-      <DependentUpon>product.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="register.aspx.cs">
-      <DependentUpon>register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="register.aspx.designer.cs">
-      <DependentUpon>register.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

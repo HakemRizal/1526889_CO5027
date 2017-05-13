@@ -25,7 +25,7 @@ namespace _1526889_CO5027_ASG
                 var identityDbContext = new IdentityDbContext("IdentityConnectionString");
                 var userStore = new UserStore<IdentityUser>(identityDbContext);
                 var userManager = new UserManager<IdentityUser>(userStore);
-                var user = userManager.Find(TxtBoxUsername2.Text, TxtBoxPassword2.Text);
+                var user = userManager.Find(TxtLoginEmail.Text, TxtLoginPassword.Text);
                 if (user != null)
                 {
                     //Instruct user to log in

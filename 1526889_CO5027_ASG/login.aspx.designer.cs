@@ -13,13 +13,13 @@ namespace _1526889_CO5027_ASG {
     public partial class login {
         
         /// <summary>
-        /// TxtBoxUsername2 control.
+        /// TxtLoginEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtBoxUsername2;
+        protected global::System.Web.UI.WebControls.TextBox TxtLoginEmail;
         
         /// <summary>
         /// reqValUsename2 control.
@@ -31,13 +31,13 @@ namespace _1526889_CO5027_ASG {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValUsename2;
         
         /// <summary>
-        /// TxtBoxPassword2 control.
+        /// TxtLoginPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtBoxPassword2;
+        protected global::System.Web.UI.WebControls.TextBox TxtLoginPassword;
         
         /// <summary>
         /// reqValPassword2 control.

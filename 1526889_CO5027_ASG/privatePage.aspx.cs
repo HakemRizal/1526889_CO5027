@@ -18,7 +18,7 @@ namespace _1526889_CO5027_ASG
         protected void LogOutBtn_Click(object sender, EventArgs e)
         {
             HttpContext.Current.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
-            Response.Redirect("login.aspx", true);
+            Server.Transfer("login.aspx", true);
         }
     }
 }

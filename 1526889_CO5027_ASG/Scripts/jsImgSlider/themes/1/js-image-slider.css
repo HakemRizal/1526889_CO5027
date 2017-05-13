@@ -75,7 +75,10 @@
         margin: 1px 6px;
 }
 
-#slider .navBulletsWrapper .active {background-position:0 -11px;}
+#slider .navBulletsWrapper .active {
+    background-position:0 -11px;
+
+}
 
 
 /* --------- Others ------- */

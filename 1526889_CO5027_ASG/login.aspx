@@ -13,21 +13,21 @@
             <tr>
                 <td class="auto-style4">Username:</td>
                 <td>
-                    <asp:TextBox ID="TxtBoxUsername2" runat="server" Height="22px" Width="180px"></asp:TextBox>
+                    <asp:TextBox ID="TxtLoginEmail" runat="server" Height="22px" Width="180px"></asp:TextBox>
                 </td>
                 <td class="auto-style6">
                     <asp:RequiredFieldValidator ID="reqValUsename2" runat="server" 
-                        ErrorMessage="Please enter your username " ControlToValidate="TxtBoxUsername2" 
+                        ErrorMessage="Please enter your username " ControlToValidate="TxtLoginEmail" 
                         ForeColor="Yellow"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style4">Password:</td>
                 <td>
-                    <asp:TextBox ID="TxtBoxPassword2" runat="server" Height="22px" Width="180px" TextMode="Password"></asp:TextBox>
+                    <asp:TextBox ID="TxtLoginPassword" runat="server" Height="22px" Width="180px" TextMode="Password"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="reqValPassword2" runat="server" ControlToValidate="TxtBoxPassword2" 
+                    <asp:RequiredFieldValidator ID="reqValPassword2" runat="server" ControlToValidate="TxtLoginPassword" 
                         ErrorMessage="Please enter your password" ForeColor="Yellow"></asp:RequiredFieldValidator>
                 </td>
             </tr>
